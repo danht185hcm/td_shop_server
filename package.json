@@ -1,0 +1,38 @@
+{
+  "name": "td_shop_server",
+  "version": "1.0.0",
+  "description": "Build a RESTFull API server for TDShop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danht185hcm/td_shop_server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tdshop",
+    "express",
+    "mongoose",
+    "server"
+  ],
+  "author": "Danh Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danht185hcm/td_shop_server/issues"
+  },
+  "homepage": "https://github.com/danht185hcm/td_shop_server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "argon2": "^0.28.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2"
+  }
+}
