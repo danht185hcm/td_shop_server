@@ -5,6 +5,8 @@ const env = require('./config/env')
 const app = express()
 const PORT = env.PORT
 
+app.use(express.json())
+
 connectDB()
 
 app.listen(PORT, () =>
